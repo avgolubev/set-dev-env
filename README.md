@@ -1,4 +1,4 @@
-# Some settings IDEs that you have to search all over the Internet.
+# Some IDEs settings that you have to search all over the Internet.
 ## Set up working through proxy
 ### nodejs/npm:
 In a command prompt: 
