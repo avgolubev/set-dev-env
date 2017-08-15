@@ -10,7 +10,7 @@ In a command prompt:
 In a command prompt:  
 `set ANT_OPTS=-Dhttp.proxyHost=myproxy -Dhttp.proxyPort=3128`  
 or for authenticated proxy:
-`set ANT_OPTS=-Dhttp.proxyHost=myproxyhost -Dhttp.proxyPort=8080 -Dhttp.proxyUser=myproxyusername -Dhttp.proxyPassword=myproxypassword -Dhttps.proxyHost=myproxyhost -Dhttps.proxyPort=8080`  
+ `set ANT_OPTS=-Dhttp.proxyHost=myproxyhost -Dhttp.proxyPort=8080 -Dhttp.proxyUser=myproxyusername   -Dhttp.proxyPassword=myproxypassword -Dhttps.proxyHost=myproxyhost -Dhttps.proxyPort=8080`  
 
 
 ### atom editor:
