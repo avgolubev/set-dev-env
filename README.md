@@ -5,10 +5,16 @@ In a command prompt:
   `npm config set proxy http://proxy.company.com:port  `  
   `npm config set https-proxy http://proxy.company.com:port`  
 
-### atom editor:
+### ant:
 In a command prompt:  
 `apm config set proxy http://proxy.company.com:port`  
 `apm config set https-proxy http://proxy.company.com:port`  
+
+### atom editor:
+In a command prompt:  
+`set ANT_OPTS=-Dhttp.proxyHost=myproxy -Dhttp.proxyPort=3128`  
+or for authenticated proxy:
+`set ANT_OPTS=-Dhttp.proxyHost=myproxyhost -Dhttp.proxyPort=8080 -Dhttp.proxyUser=myproxyusername -Dhttp.proxyPassword=myproxypassword -Dhttps.proxyHost=myproxyhost -Dhttps.proxyPort=8080`  
 
 ### git
 Set proxy:  
