@@ -24,6 +24,9 @@ In a command prompt:
 ### git
 Set proxy:  
 `git config --global http.proxy http://proxyuser:proxypwd@proxy.server.com:port`  
+#### or
+`set http_proxy=http://proxy.company.com:port`  
+`set https_proxy=http://proxy.company.com:port`  
 
 Check the currently set proxy:  
 `git config --global --get http.proxy`  
