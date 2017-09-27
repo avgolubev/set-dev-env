@@ -1,5 +1,6 @@
 # Some IDEs settings that you have to search all over the Internet.
-## Set up working through proxy (in windows corporate network use cntlm, in addition to all of the settings below)
+## Set up working through proxy
+##*in windows corporate network use cntlm, in addition to all of the settings below
 ### nodejs/npm:
 In a command prompt:  
   `npm config set proxy http://proxy.company.com:port  `  
